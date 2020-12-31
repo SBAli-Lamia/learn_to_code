@@ -15,7 +15,6 @@ print('Highest bubble score:', high_score)
 best_solutions = []
 for i in range (length):
       if scores[i] == high_score:
-          print('Bubble solution #' + str(i), 'has best solutions')
-best_solutions.extend([high_score])
+        best_solutions.append(i)
 print(best_solutions)
       
